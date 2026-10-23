@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "534024789535",
+    "project_id": "tokustore-app",
+    "storage_bucket": "tokustore-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534024789535:android:c66536a3531e1847973f2a",
+        "android_client_info": {
+          "package_name": "com.example.coleccion_tienda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534024789535-e9lku60pqanl2um9qsr6kk8qbdbtk3c6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMoY3XJxuo2vLb5q3OSZ51h04LEYy8GPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534024789535-e9lku60pqanl2um9qsr6kk8qbdbtk3c6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
