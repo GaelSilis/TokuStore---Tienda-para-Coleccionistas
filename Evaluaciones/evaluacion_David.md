@@ -1,0 +1,33 @@
+# 📝 Hoja de Evaluación: David
+
+**Evaluador:** David | **Fecha de evaluación:** DD/MM/AAAA
+
+---
+
+## 🚦 Código de Estado
+
+* ⚪ **Blanco:** No probado aún.
+* 🟡 **Amarillo:** Probado, pero se encontraron errores o detalles.
+* 🟢 **Verde:** Probado y funciona perfectamente.
+
+---
+
+## 📊 Tabla de Pruebas
+
+| Funcionalidad | Estado (⚪ / 🟡 / 🟢) | Observaciones / Errores Encontrados |
+| :--- | :---: | :--- |
+| Registro manual (Correo y Contraseña) | ⚪ | |
+| Inicio de sesión manual | ⚪ | |
+| Acceso con cuenta de Google | ⚪ | |
+| Subir productos al inventario | ⚪ | |
+| Realizar ventas | ⚪ | |
+| Ver historial de ventas | ⚪ | |
+| Agendar citas | ⚪ | |
+
+---
+
+## 💬 Reporte de Errores y Comentarios Adicionales
+
+*(Si marcaste algo en amarillo 🟡, por favor describe el error con más detalle aquí. ¿Qué intentaste hacer y qué falló?)*
+
+*
