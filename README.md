@@ -7,4 +7,4 @@ Este espacio está diseñado exclusivamente para la descarga y evaluación de la
 
 ## 📦 Enlace de Descarga
 
-Puedes descargar la última versión de la aplicación desde la sección de **Releases**. 👉 [Descargar TokuStore APK (Versión Final) aquí](https://github.com/GaelSilis/TokuStore/releases/download/v1.0.0/app-release.apk)
+Puedes descargar la última versión de la aplicación desde la sección de **Releases**. 👉 [Descargar TokuStore APK (Versión Prueba) aquí](https://github.com/GaelSilis/TokuStore/releases/download/v1.0.0/app-release.apk)
