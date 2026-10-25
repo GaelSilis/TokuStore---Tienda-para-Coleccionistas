@@ -1,7 +1,7 @@
 # 📝 Hoja de Evaluación: Carlos Jacobo
 
-**Evaluador:** Alan Gael Silis Ambrosio 
-**Fecha de evaluación:** DD/MM/AAAA
+**Evaluador:** Carlos Jacobo Pérez Pérez 
+**Fecha de evaluación:** 25/10/2026
 
 ## 🚥 Código de Estado
 *   ⚪ **Blanco:** No probado aún.
@@ -12,15 +12,29 @@
 
 | Funcionalidad | Estado (⚪/🟡/🟢) | Observaciones / Errores Encontrados |
 | :--- | :---: | :--- |
-| Registro manual (Correo y Contraseña) | ⚪ | |
-| Inicio de sesión manual | ⚪ | |
-| Acceso con cuenta de Google | ⚪ | |
-| Subir productos al inventario | ⚪ | |
+| Registro manual (Correo y Contraseña) | 🟡 | |
+| Inicio de sesión manual | 🟡 | |
+| Acceso con cuenta de Google | 🟢 | |
+| Subir productos al inventario | 🟢 | |
 | Realizar ventas | ⚪ | |
-| Ver historial de ventas | ⚪ | |
-| Agendar citas | ⚪ | |
+| Ver historial de ventas | 🟢 | |
+| Agendar citas | 🟡 | |
 
 ## 💬 Reporte de Errores y Comentarios Adicionales
 *(Si marcaste algo en amarillo 🟡, por favor describe el error con más detalle aquí. ¿Qué intentaste hacer y qué falló?)*
 
-- 
+- 1. Detalle en el inicio de sesión manual con el correo y contraseña:
+A la hora de registrarme manualmente me indica que fue realizado exitosamente , pero en la parte de la contraseña, no te pide caracteres especiales,
+ni alguna letra mayuscula como requisito para que la contraseña sea mas segura.
+
+-2. Error en el inicio de sesión manual:
+Intente ingresar con el usuario previamente registrado, con el correo y contraseña y al momento de dar click al boton me redirige a una ventana
+emergente de Acceso Denegado indicando que las credenciales son invalidas
+
+-3. Detalle en Realizar Ventas:
+No hay algun apartado , que me permita realizar alguna venta en la app
+
+4. Detalle en agendar citas:
+Si en agendar citas se refiere a los eventos de comic-con etc, solo me indica la opcion de confirmar asistencia/registro pero 
+no hay algun registro que rellenar solo indica que te has registrado con exito, y tampoco hay un apartado donde te indique cuales son 
+los eventos a los que te has registrado previamente 
