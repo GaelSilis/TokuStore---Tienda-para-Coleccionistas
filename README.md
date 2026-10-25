@@ -7,4 +7,4 @@ Este espacio está diseñado exclusivamente para la descarga y evaluación de la
 
 ## 📦 Enlace de Descarga
 
-Puedes descargar la última versión de la aplicación desde la sección de Releases. 👈 [Descargar TokuStore APK (Versión Prueba)](sha256:5389f05b0dfdd973a02239abefd95b329b042454e09c13ddbc834c126b7c4b9d)
+Puedes descargar la última versión de la aplicación desde la sección de Releases. 👈 [Descargar TokuStore APK (Versión Prueba)](https://github.com/GaelSilis/TokuStore---Tienda-para-Coleccionistas/releases/download/v1.0.0/app-release.apk)
