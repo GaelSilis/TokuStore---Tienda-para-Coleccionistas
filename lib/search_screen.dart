@@ -27,20 +27,20 @@ class _SearchScreenViewState extends State<SearchScreenView> {
     const neonCyan = Color(0xFF00E5FF);
     const neonGreen = Color(0xFF00FF66);
 
-    // Filtrar Productos
+    
     final filteredProducts = widget.products.where((p) {
       return p.name.toLowerCase().contains(_query.toLowerCase()) ||
           p.tag.toLowerCase().contains(_query.toLowerCase());
     }).toList();
 
-    // Filtrar Eventos
+    
     final filteredEvents = widget.events.where((e) {
       return e.title.toLowerCase().contains(_query.toLowerCase()) ||
           e.category.toLowerCase().contains(_query.toLowerCase()) ||
           e.location.toLowerCase().contains(_query.toLowerCase());
     }).toList();
 
-    // Filtrar Notificaciones
+    
     final filteredNotifications = globalNotifications.where((n) {
       return n.toLowerCase().contains(_query.toLowerCase());
     }).toList();
@@ -97,7 +97,7 @@ class _SearchScreenViewState extends State<SearchScreenView> {
           ),
           const SizedBox(height: 16),
 
-          // Resultados
+          
           Expanded(
             child: _query.isEmpty
                 ? Center(
@@ -129,7 +129,7 @@ class _SearchScreenViewState extends State<SearchScreenView> {
                       )
                     : ListView(
                         children: [
-                          // Sección de Productos Coincidentes
+                          
                           if (filteredProducts.isNotEmpty) ...[
                             const Padding(
                               padding: EdgeInsets.symmetric(vertical: 8.0),
@@ -162,7 +162,7 @@ class _SearchScreenViewState extends State<SearchScreenView> {
                                 )),
                           ],
 
-                          // Sección de Eventos Coincidentes
+                          
                           if (filteredEvents.isNotEmpty) ...[
                             const Padding(
                               padding: EdgeInsets.symmetric(vertical: 8.0),
@@ -195,7 +195,7 @@ class _SearchScreenViewState extends State<SearchScreenView> {
                                 )),
                           ],
 
-                          // Sección de Notificaciones Coincidentes
+                          
                           if (filteredNotifications.isNotEmpty) ...[
                             const Padding(
                               padding: EdgeInsets.symmetric(vertical: 8.0),

@@ -5,9 +5,9 @@ import 'cart_screen.dart';
 import 'product_detail_screen.dart';
 import 'event_detail_screen.dart';
 import 'search_screen.dart';
-import 'profile_screen.dart'; // Importación de la pantalla de perfil
+import 'profile_screen.dart'; 
 
-// Modelos de datos globales
+
 class Product {
   final String name;
   final double price;
@@ -48,12 +48,12 @@ class EventModel {
   });
 }
 
-// Listas globales compartidas
+
 List<Product> globalCart = [];
 List<OrderModel> globalOrders = [];
 List<String> globalNotifications = [];
 
-// Catálogo compartido de Productos
+
 final List<Product> globalProductsList = [
   Product(name: 'Figura Kamen Rider Zeztz', price: 899.00, icon: Icons.smart_toy, tag: 'NUEVO'),
   Product(name: 'Manga Kamen Rider Vol. 1', price: 249.00, icon: Icons.menu_book, tag: 'MANGA'),
@@ -73,7 +73,7 @@ final List<Product> globalProductsList = [
   Product(name: 'Camiseta Oficial TokuStore', price: 399.00, icon: Icons.checkroom, tag: 'ROPA'),
 ];
 
-// Lista compartida de Eventos
+
 final List<EventModel> globalEventsList = [
   EventModel(
     title: 'Kamen Rider World Expo 2026',
@@ -190,7 +190,6 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               decoration: const BoxDecoration(color: darkBg),
             ),
-            // OPCIÓN DE PERFIL AÑADIDA ARRIBA DE MIS PEDIDOS
             ListTile(
               leading: const Icon(Icons.person_outline_rounded, color: neonGreen),
               title: const Text('Mi Perfil', style: TextStyle(color: Colors.white)),
@@ -255,7 +254,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
-// --- VISTA DE CATÁLOGO ---
+
 class CatalogView extends StatefulWidget {
   const CatalogView({super.key});
 
@@ -513,7 +512,7 @@ class _CatalogViewState extends State<CatalogView> {
   }
 }
 
-// --- VISTA DE EVENTOS ---
+
 class EventsView extends StatelessWidget {
   const EventsView({super.key});
 
@@ -648,7 +647,7 @@ class EventsView extends StatelessWidget {
   }
 }
 
-// --- VISTA DE NOTIFICACIONES ---
+
 class NotificationsView extends StatelessWidget {
   const NotificationsView({super.key});
 
@@ -756,7 +755,7 @@ class NotificationsView extends StatelessWidget {
   }
 }
 
-// --- VISTA DE MIS PEDIDOS ---
+
 class OrdersView extends StatefulWidget {
   const OrdersView({super.key});
 

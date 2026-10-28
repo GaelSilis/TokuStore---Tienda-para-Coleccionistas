@@ -25,7 +25,7 @@ class EventDetailScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Banner / Display del Evento
+            
             Container(
               height: 220,
               width: double.infinity,
@@ -72,7 +72,7 @@ class EventDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
 
-            // Título y Categoría
+            
             Text(
               event.title,
               style: const TextStyle(
@@ -83,7 +83,7 @@ class EventDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 12),
 
-            // Ficha Técnica (Fecha y Ubicación)
+            
             Container(
               padding: const EdgeInsets.all(14),
               decoration: BoxDecoration(
@@ -123,7 +123,7 @@ class EventDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
 
-            // Descripción Detallada
+            
             Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
@@ -163,7 +163,7 @@ class EventDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 28),
 
-            // Botón de Asistir / Registrarse
+            
             SizedBox(
               width: double.infinity,
               child: ElevatedButton.icon(

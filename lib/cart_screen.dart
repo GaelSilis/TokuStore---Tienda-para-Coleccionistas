@@ -115,16 +115,16 @@ class _CartScreenState extends State<CartScreen> {
                                         date: DateTime.now().toString().substring(0, 16),
                                       ));
 
-                                      // 2. Agregar notificación al sistema
+                                      
                                       globalNotifications.add(
                                         "¡Compra exitosa! Total: \$${total.toStringAsFixed(2)} MXN. Revisa 'Mis Pedidos'."
                                       );
 
-                                      // 3. Limpiar carrito
+                                      
                                       globalCart.clear();
                                       
-                                      Navigator.pop(context); // Cierra diálogo
-                                      Navigator.pop(context); // Cierra carrito
+                                      Navigator.pop(context); 
+                                      Navigator.pop(context); 
                                       setState(() {});
                                       
                                       ScaffoldMessenger.of(context).showSnackBar(
