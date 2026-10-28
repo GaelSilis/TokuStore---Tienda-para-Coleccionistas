@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# coleccion_tienda
+
+# TokuStore---Tienda-para-Coleccionistas
 
 # 📱 TokuStore - Tienda para Coleccionistas
 
