@@ -13,12 +13,14 @@ class Product {
   final double price;
   final IconData icon;
   final String tag;
+  final int stock; // Stock disponible para cada producto
 
   Product({
     required this.name,
     required this.price,
     required this.icon,
     this.tag = "OFICIAL",
+    required this.stock,
   });
 }
 
@@ -55,22 +57,22 @@ List<String> globalNotifications = [];
 
 
 final List<Product> globalProductsList = [
-  Product(name: 'Figura Kamen Rider Zeztz', price: 899.00, icon: Icons.smart_toy, tag: 'NUEVO'),
-  Product(name: 'Manga Kamen Rider Vol. 1', price: 249.00, icon: Icons.menu_book, tag: 'MANGA'),
-  Product(name: 'DVD Box Set Serie Completa', price: 899.00, icon: Icons.disc_full, tag: 'EDICIÓN ESPECIAL'),
-  Product(name: 'Cómic Edición Especial', price: 199.00, icon: Icons.auto_stories, tag: 'POPULAR'),
-  Product(name: 'Cinturón Henshin Driver', price: 2499.00, icon: Icons.bolt, tag: 'TOP VENDEDOR'),
-  Product(name: 'Figura Kamen Rider Geats', price: 1199.00, icon: Icons.sports_martial_arts, tag: 'LIMITADO'),
-  Product(name: 'Casco Réplica Standard', price: 3500.00, icon: Icons.security, tag: 'COLECCIONABLE'),
-  Product(name: 'Artbook Oficial Tokusatsu', price: 650.00, icon: Icons.photo_library, tag: 'ARTBOOK'),
-  Product(name: 'Sound Track Original CD', price: 450.00, icon: Icons.audiotrack, tag: 'MÚSICA'),
-  Product(name: 'Guanteletes Coleccionables', price: 799.00, icon: Icons.handshake, tag: 'ACCESORIO'),
-  Product(name: 'Figura Kamen Rider Kuuga', price: 1399.00, icon: Icons.flash_on, tag: 'CLÁSICO'),
-  Product(name: 'Manga Kamen Rider W Vol. 1', price: 269.00, icon: Icons.menu_book, tag: 'MANGA'),
-  Product(name: 'Set Medallas OOO', price: 950.00, icon: Icons.radio_button_checked, tag: 'RARO'),
-  Product(name: 'Llavero Logo Heroico', price: 120.00, icon: Icons.key, tag: 'EXTRAS'),
-  Product(name: 'Póster Edición Limitada', price: 300.00, icon: Icons.image, tag: 'PÓSTER'),
-  Product(name: 'Camiseta Oficial TokuStore', price: 399.00, icon: Icons.checkroom, tag: 'ROPA'),
+  Product(name: 'Figura Kamen Rider Zeztz', price: 899.00, icon: Icons.smart_toy, tag: 'NUEVO', stock: 10),
+  Product(name: 'Manga Kamen Rider Vol. 1', price: 249.00, icon: Icons.menu_book, tag: 'MANGA', stock: 25),
+  Product(name: 'DVD Box Set Serie Completa', price: 899.00, icon: Icons.disc_full, tag: 'EDICIÓN ESPECIAL', stock: 8),
+  Product(name: 'Cómic Edición Especial', price: 199.00, icon: Icons.auto_stories, tag: 'POPULAR', stock: 15),
+  Product(name: 'Cinturón Henshin Driver', price: 2499.00, icon: Icons.bolt, tag: 'TOP VENDEDOR', stock: 5),
+  Product(name: 'Figura Kamen Rider Geats', price: 1199.00, icon: Icons.sports_martial_arts, tag: 'LIMITADO', stock: 12),
+  Product(name: 'Casco Réplica Standard', price: 3500.00, icon: Icons.security, tag: 'COLECCIONABLE', stock: 3),
+  Product(name: 'Artbook Oficial Tokusatsu', price: 650.00, icon: Icons.photo_library, tag: 'ARTBOOK', stock: 20),
+  Product(name: 'Sound Track Original CD', price: 450.00, icon: Icons.audiotrack, tag: 'MÚSICA', stock: 30),
+  Product(name: 'Guanteletes Coleccionables', price: 799.00, icon: Icons.handshake, tag: 'ACCESORIO', stock: 7),
+  Product(name: 'Figura Kamen Rider Kuuga', price: 1399.00, icon: Icons.flash_on, tag: 'CLÁSICO', stock: 10),
+  Product(name: 'Manga Kamen Rider W Vol. 1', price: 269.00, icon: Icons.menu_book, tag: 'MANGA', stock: 22),
+  Product(name: 'Set Medallas OOO', price: 950.00, icon: Icons.radio_button_checked, tag: 'RARO', stock: 6),
+  Product(name: 'Llavero Logo Heroico', price: 120.00, icon: Icons.key, tag: 'EXTRAS', stock: 50),
+  Product(name: 'Póster Edición Limitada', price: 300.00, icon: Icons.image, tag: 'PÓSTER', stock: 18),
+  Product(name: 'Camiseta Oficial TokuStore', price: 399.00, icon: Icons.checkroom, tag: 'ROPA', stock: 25),
 ];
 
 
